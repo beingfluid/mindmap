@@ -1,0 +1,31 @@
+{
+  "name": "@mind-elixir/export-html",
+  "version": "3.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/export-html.umd.cjs",
+  "module": "./dist/export-html.js",
+  "exports": {
+    ".": {
+      "import": "./dist/export-html.js",
+      "require": "./dist/export-html.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "mind-elixir": "^3.0.1",
+    "vite": "^3.0.0"
+  },
+  "peerDependencies": {
+    "mind-elixir": "^3.0.0"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5"
+  }
+}
