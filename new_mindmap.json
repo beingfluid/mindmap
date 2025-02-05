@@ -1,40 +1,14 @@
 {
   "nodeData": {
     "id": "d451a556d866ba7b",
-    "topic": "test",
+    "topic": "Start",
     "root": true,
-    "children": [
-      {
-        "topic": "new node",
-        "id": "d451a6f027c33b1f",
-        "direction": 0,
-        "children": [
-          {
-            "topic": "new node",
-            "id": "d451a724b7c10970"
-          },
-          {
-            "topic": "new node",
-            "id": "d451a77ca7348eae"
-          },
-          {
-            "topic": "new node",
-            "id": "d451a78e1ec7181c"
-          }
-        ]
-      },
-      {
-        "topic": "test child",
-        "id": "4d5fae258143658c",
-        "direction": 1,
-        "style": {
-          "color": "#2980b9"
-        }
-      }
-    ],
+    "children": [],
     "style": {
+      "fontSize": "32",
+      "fontWeight": "bold",
       "color": "#ecf0f1",
-      "background": "#2980b9"
+      "background": "#3298db"
     }
   },
   "arrows": [
